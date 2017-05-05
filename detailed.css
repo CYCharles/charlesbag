@@ -1,0 +1,64 @@
+#conlogo{width: 100%;height: 70px;}
+.oooo{width: 1000px;height: 70px;margin: 0 auto;}
+.oooo p{width: 500px;text-align: left;line-height: 70px;height: 70px;font-size: 18px;color: #C57D56;}
+.magnifier{width: 100%;height: 655px;margin: 0 auto;}
+.magnifier-show{ width: 1000px;height: 666px;margin: 0 auto;}
+.show-L{position: relative; width: 500px;height: 666px;float: left;}
+/*中等图*/
+.middle{cursor: pointer; position: relative;float: left; border: 1px solid #999999;width: 458px;height: 458px;}
+/*小区间*/
+.smallAre{display: none;z-index: 2; position: absolute;top:20px;left: 20px;width: 100px;height: 100px;background: url(../img/goods/zoomspan.gif) repeat;opacity: 0.8;}
+.midImg{z-index: 1; position: absolute;top:0;left: 0;}
+
+/*大区间父定在show-L*/
+.bigAre{display: none; border: 1px solid #DDDDDD; background: #FFFFFF; width: 458px;height: 458px;overflow: hidden;position: absolute;top:0;left: 486px;}
+.BigImg{position: absolute;top:0;left: 0;}
+.magnifier-IM{height: 460px;width: 460px;}
+.show-ul{ width: 400px;height: 100px;padding: 20px 0;}
+.weeList{width: 448px;height: 58px;border: 1px solid #ddd;padding: 6px 0;padding-left: 10px;}
+.weeList li{float: left;margin-right: 15px;width: 58px;height: 58px; ;}
+.weeList li img{width: 58px;height: 58px;}
+.weeList li:hover{border: 1px solid #C57D56;}
+
+.show-R{width: 500px;height: 666px;float: left;}
+.showCon{height: 100px;width: 500px;font-family: "微软雅黑";text-align: left;}
+.showCon h3{height: 50px;line-height: 50px; text-align: left;font-size: 25px;color: #000000;}
+.showCon h4{height: 50px;line-height: 50px;  text-align: left;font-size: 22px;color: #C57D56;}
+/*.sale{background: #ddd; width: 380px;height: 52px;border-bottom: 1px dashed #C57D56;border-top: 1px dashed #C57D56;}
+.sale li{width: 100px;border-right:1px dashed #C57D56 ; float: left;height: 50px;line-height: 50px;margin-right: 20px;}
+.sale li:last-child{border-right: 0;}
+.sale li span{color: #C57D56;}*/
+
+.sale{width: 500px;height: 150px;}
+
+.king{width: 500px;height: 215px;padding:0 0 0 20px ;}
+.king p{font-size: 14px;padding:10px 0 ;}
+.king p:first-child{height: 70px;width: 412px;}
+.king p:first-child a{margin-left: 20px;float: left;width: 61px;height: 26px;border: 2px solid #999;line-height: 26px;text-align: center;}
+.king p:first-child a:hover{border-color: #C57D56;}
+
+
+.king p:first-child span{float: right;width: 165px;float: right;height: 60px;line-height: 20px;}
+.king p:first-child span:first-child{width: 60px;height: 26px;line-height: 26px;}
+.king p:nth-child(2){height: 40px;width: 500px;}
+.king p:nth-child(2) a{float: left; margin-left: 20px;float: left;width: 61px;height: 26px;border: 2px solid #999;line-height: 26px;text-align: center;}
+.king p:nth-child(2) a:hover{border-color: #C57D56;}
+.king p:nth-child(2) span{float: left;width: 60px;height: 26px;line-height: 26px;}
+.king p:nth-child(3) select{outline: none;margin-left: 18px;height: 26px;}
+
+.addbuy{height: 50px;width: 500px;}
+.addcart{border-radius: 5px; width: 180px;height: 40px;background: #C57D56;float: left;margin-right:20px ;line-height: 40px;font-size: 20px;text-align: center;color: #FFFFFF;}
+.buy{border-radius: 5px; width: 178px;height: 38px;float: left;border: 1px solid #C57D56;line-height: 40px;font-size: 20px;text-align: center;font-family: simsun;}
+.addcart:hover{background: red;}
+.buy:hover{background: #C57D56;color: #FFFFFF;}
+
+.kingBG{background: url(../img/goods/right.png) no-repeat;background-position: 52px 17px;}
+.kingBor{border-color:#C57D56 ;}
+
+
+
+
+
+
+
+
