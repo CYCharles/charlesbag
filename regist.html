@@ -1,10 +1,265 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/regist.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.idcode.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/baseCode.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.idcode.css" />
+		<style type="text/css">
+			#top {
+				width: 100%;
+				height: 120px;
+			}
+			
+			.logo-top {
+				margin: 0 auto;
+				width: 1000px;
+				height: 120px;
+			}
+			
+			.logoImg {
+				width: 150px;
+				height: 120px;
+				float: left;
+			}
+			
+			.load {
+				float: right;
+				width: 400px;
+				height: 80px;
+				padding-top: 40px;
+			}
+			
+			.load a {
+				float: left;
+				height: 42px;
+				line-height: 42px;
+				padding-right: 15px;
+				width: 80px;
+				text-align: center;
+			}
+			/*bnner*/
+			
+			#banner {
+				width: 100%;
+				height: 600px;
+			}
+			
+			.banner {
+				position: relative;
+				margin: 0 auto;
+				width: 2000px;
+				height: 566px;
+				background: url(img/goods/1478691614.jpg) no-repeat;
+				background-position: -291px 0;
+			}
+			
+			.regist {
+				border-radius: 10px;
+				width: 310px;
+				height: 500px;
+				float: right;
+				background: #FFFFFF;
+				position: absolute;
+				left: 43%;
+				top: 5%;
+				border: 1px solid #DDDDDD;
+			}
+			
+			.regist h3 {
+				margin-bottom: 10px;
+				text-align: center;
+				width: 310px;
+				border-bottom: 1px solid #DDDDDD;
+				line-height: 47px;
+				height: 47px;
+				font-size: 20px;
+				font-family: simsun;
+				color: #C57D56;
+			}
+			
+			.regist form {
+				height: 453px;
+				width: 310px;
+				text-align: center;
+			}
+			
+			.regist form input {
+				padding-left: 5px;
+				width: 248px;
+				height: 40px;
+				margin-bottom: 10px;
+				border-radius: 5px;
+				outline: none;
+				border: 0;
+				border: 1px solid #DDDDDD;
+			}
+			
+			#check {
+				width: 15px;
+				height: 15px;
+				margin: 0;
+				position: absolute;
+				top: 7px;
+				left: 32px;
+			}
+			
+			#Txtidcode {
+				color: #999999;
+				float: left;
+				width: 150px;
+				height: 40px;
+				line-height: 40px;
+				margin-bottom: 4px;
+				padding-left: 20px;
+			}
+			
+			#idcode {
+				float: left;
+				width: 85px;
+				height: 42px;
+				display: inline-block;
+				margin-left: 10px;
+			}
+			
+			.argen {
+				text-align: left;
+				padding-left: 20px;
+			}
+			
+			.pche {
+				line-height: 28px;
+				height: 28px;
+				width: 310px;
+				position: relative;
+				margin-bottom: 10px;
+			}
+			
+			.regist form p:last-child {
+				text-align: right;
+				width: 280px;
+				padding-right: 30px;
+				height: 30px;
+			}
+			
+			.regist form p:last-child a {
+				font-size: 14px;
+			}
+			
+			.con {
+				color: #C57D56;
+				padding-left: 5px;
+			}
+			
+			#btn {
+				background: #C57D56;
+				color: #FFFFFF;
+				cursor: pointer;
+			}
+			
+			#btn:hover {
+				background: #d49e85;
+			}
+			
+			.greenB {
+				border-color: greenyellow;
+			}
+			
+			.incode {
+				width: 283px;
+				height: 50px;
+				padding-left: 27px;
+			}
+			
+			.misDIV {
+				width: 310px;
+				height: 32px;
+			}
+			
+			#misstake {
+				text-align: center;
+				width: 221px;
+				height: 20px;
+				border: 1px solid red;
+				margin: auto;
+				display: none;
+			}
+			/*.regist form input:hover{border-color: greenyellow;}*/
+			/*.regist form input:first-child.miss{border-color: green;}*/
+			/*.allrigth{border-color: greenyellow;}*/
+			
+			.load-P {
+				width: 250px;
+				margin: 0 auto;
+			}
+			
+			.loadgo {
+				text-align: right;
+				display: inline-block;
+				width: 250px;
+			}
+			
+			.loadgo:hover {
+				color: #C57D56;
+			}
+		</style>
 	</head>
+
 	<body>
-		
+		<div id="top">
+			<div class="logo-top">
+				<div class="logoImg">
+					<img src="img/LogoImg/drlogo.png" alt="">
+				</div>
+				<div class="load">
+					<a href="loda.html">登录</a>
+					<a href="regist.html">加入DR一族</a>
+					<img src="img/registload/20a.png" alt="">
+				</div>
+			</div>
+
+		</div>
+		<div id="banner">
+			<div class="banner">
+				<div class="regist">
+					<h3>DR 加入族谱</h3>
+					<div class=""></div>
+					<form action="" method="post" class="form">
+						<div class="misDIV">
+							<p id="misstake">输入有误</p>
+						</div>
+						<input type="text" name="" value="" placeholder="请输入账号" class="inp_text" />
+						<input type="password" name="" value="" placeholder="请输入密码" class="inp_pwd" />
+						<input type="password" name="" value="" placeholder="请再次输入密码" class="inp_dbpwd" />
+						<div class="incode">
+							<input type="text" name="" id="Txtidcode" value="" class="F4input" placeholder="输入验证码" />
+							<!--<input type="text" name="" value="" placeholder="输入验证码" class="argen" id="argen"/>-->
+							<span id="idcode"></span>
+						</div>
+						<p class="pche"><input type="checkbox" name="" id="check" /><i class="argen">同意Darry Ring用户<span class="con">注册协议和隐私条款</span></i></p>
+						<input type="button" id="btn" value="立即加入DR族" />
+						<p>
+							<a href="##"></a>
+							<a href="##"></a>
+							<a href="##"></a>
+							<a href="##"></a>
+						</p>
+						<p class="load-P">
+							<a class="loadgo" href="load.html">已有账户 登录>></a>
+						</p>
+						<div class="texDiv"></div>
+					</form>
+
+				</div>
+
+			</div>
+		</div>
+
 	</body>
+
 </html>

@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/baseCode.css"/>
-		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/baseCode.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
 		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/logo.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/banner-lunbo.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+
 	<body>
+		<div id="fixed-r">
+			<ul class="fixed-r-ul">
+				<li>
+					<a href="#">实体店</a><span>store</span></li>
+				<li>
+					<a href="#">新品推荐</a><span>product</span></li>
+				<li>
+					<a href="#">爱的礼物</a><span>love's gift</span></li>
+				<li>
+					<a href="#">唯爱</a><span>true love</span></li>
+				<li>
+					<a href="#">天生一对</a><span>Perfect</span></li>
+				<li>
+					<a href="#">真爱明星</a><span>star's love</span></li>
+			</ul>
+		</div>
+		<div id="fixRight">
+			<div class="rightf">
+				<ul class="fix-ul">
+					<li>
+						<i class="bai"></i>
+						<a class="saledown" href="##">在线客服</a>
+					</li>
+					<li>
+						<i class="bai"></i>
+						<a class="saledown num" href="cart.html">购物车</a>
+					</li>
+					<li>
+						<i class="bai"></i>
+						<a class="saledown" href="##">我的订单</a>
+					</li>
+					<li>
+						<i class="bai"></i>
+						<a class="saledown" href="##">我的收藏</a>
+					</li>
+
+					<li>
+						<i class="bai"></i>
+						<a class="saleImg" href="##"><img src="img/banner/APP_ewm.jpg" /></a>
+					</li>
+					<li>
+						<i class="bai"></i>
+						<a class="saleQQ" href="##"><img src="img/banner/qqw1w1.png" /></a>
+					</li>
+				</ul>
+				<div class="returnTop"></div>
+			</div>
+		</div>
 		<div id="top">
 			<div class="top-con clearfix">
 				<div class="logo">
-					<a href="goods.html"><img src="img/LogoImg/drlogo.png"/></a>
-					<a href="detailed.html"><img class="imgMan" src="img/LogoImg/onelife.png"/></a>
+					<a href="goods.html"><img src="img/LogoImg/drlogo.png" /></a>
+					<a href="detailed.html"><img class="imgMan" src="img/LogoImg/onelife.png" /></a>
 				</div>
 				<div class="tel">
-					<a href="##" class="tel-a1">登录</a>
-					<a href="##" class="tel-a2">加入DR族</a>
+					<a href="load.html" class="tel-a1">登录</a>
+					<a href="regist.html" class="tel-a2">加入DR族</a>
 					<i class="tel-num">400-01-13520</i>
 					<div class="app">
 						<a class="tel-phone" href="##">DR族APP</a>
 						<div class="appImg">
 							<p class="applove">暖心的情侣互动
-							<br/>下载DR族专属APP</p>
+								<br/>下载DR族专属APP</p>
 						</div>
 					</div>
 					<div class="tel-right">
 						<a href="##" class="lang">中文(简体)</a>
-						<a href="##" class="lang-f">中文(繁体)</a>
+						<a href="http://www.darryring.com/hk/" class="lang-f">中文(繁体)</a>
 						<span>您所在的城市:</span>
 						<a href="##" class="tel-sz">深圳</a>
 						<!--<div class="city"></div>-->
 					</div>
 					<div class="top-bottom">
-						<img src="img/LogoImg/drz.png"/>
-						<input class="seach" type="text" name="" id="" value="" placeholder="请输入身份证号验证真爱承若"/>
+						<img src="img/LogoImg/drz.png" />
+						<input class="seach" type="text" name="" id="" value="" placeholder="请输入身份证号验证真爱承若" />
 					</div>
 				</div>
 			</div>
@@ -44,26 +94,28 @@
 		<div id="nav">
 			<div class="nav-con">
 				<ul class="nav-ul">
-					<li class="Li1 Liall"><a href="##">DR</a>
-						<!--<div  class="liall">
+					<li class="Li1 Liall">
+						<a href="##">DR</a>
+						<div class="liall">
 							<div class="lia1">
-								<img src="img/navImg/drword.png"/> 
+								<img src="img/navImg/drword.png" />
 								<span>加入DR族</span>
-								<img src="img/navImg/black_icon.png"/>
+								<img src="img/navImg/black_icon.png" />
 							</div>
 							<div class="lia2">
-								<img src="img/navImg/drimg.jpg"/>
+								<img src="img/navImg/drimg.jpg" />
 								<p class="lia2-p">搜索DR</p>
 							</div>
-						</div>-->
+						</div>
 					</li>
-					<li class="Li2 Liall"><a href="##">求婚钻戒</a>
-						<div  class="liall">
+					<li class="Li2 Liall">
+						<a href="##">求婚钻戒</a>
+						<div class="liall">
 							<div class="lib1  li-ulall">
 								<div class="Imgnav">
-									<img class="aimg" src="img/navImg/1477450434.jpg" width="200px" height="200px"/>
+									<img class="aimg1" src="img/navImg/1477450434.jpg" width="200px" height="200px" />
 								</div>
-								<ul class="lib1-ul ula">
+								<ul class="lib1-ul ula" id="li1IMG">
 									<li>稀世粉钻</li>
 									<li>MY HEART系列</li>
 									<li>FOREVER系列</li>
@@ -73,9 +125,9 @@
 							</div>
 							<div class="lib2 li-ula">
 								<div class="Imgnav">
-									<img class="aimg" src="img/navImg/1477450804.jpg" width="200px" height="200px"/>
+									<img class="aimg2" src="img/navImg/1477450804.jpg" width="200px" height="200px" />
 								</div>
-								<ul class="lib2-ul ulall">
+								<ul class="lib2-ul ulall" id="li2IMG">
 									<li>JUST YOU</li>
 									<li>BELIEVE系列</li>
 									<li>LOVE LINE系列</li>
@@ -85,11 +137,12 @@
 							</div>
 						</div>
 					</li>
-					<li class="Li3 Liall"><a href="##">爱的礼物</a>
+					<li class="Li3 Liall">
+						<a href="##">爱的礼物</a>
 						<div class="liall">
 							<div class="lic1  li-ulall">
-								<div class="Imgnav"><img class="abimg" src="img/navImg/1473674984.jpg" width="200px" height="200px"/></div>
-								<ul class="lic1-ul ulall">
+								<div class="Imgnav3"><img class="abmg3" src="img/navImg/1473674984.jpg" width="200px" height="200px" /></div>
+								<ul class="lic1-ul ulall" id="li3IMG">
 									<li>对戒</li>
 									<li>男戒</li>
 									<li>吊坠</li>
@@ -99,9 +152,9 @@
 							</div>
 							<div class="lic2 li-ulall">
 								<div class="Imgnav">
-									<img class="abimg" src="img/lovebetter/1488261283.jpg" width="200px" height="200px"/>
+									<img class="abmg4" src="img/lovebetter/1488261283.jpg" width="200px" height="200px" />
 								</div>
-								<ul class="lic2-ul ulall">
+								<ul class="lic2-ul ulall" id="li4IMG">
 									<li>十二星座吊坠</li>
 									<li>纪念日礼物</li>
 									<li>生日礼物</li>
@@ -111,9 +164,11 @@
 							</div>
 						</div>
 					</li>
-					<li class="Li4"><a href="##">钻戒定制</a>
+					<li class="Li4">
+						<a href="##">钻戒定制</a>
 					</li>
-					<li class="Li5 Liall"><a href="##">DR实体店</a>
+					<li class="Li5 Liall">
+						<a href="##">DR实体店</a>
 						<!--<div  class="liall">
 							<div class="lie1">
 								<p class="lie-phot">
@@ -200,8 +255,9 @@
 							</div>
 						</div>-->
 					</li>
-					<li class="Li6 Liall"><a href="##">DR品牌文化</a>
-						<!--<div  class="liall">
+					<li class="Li6 Liall">
+						<a href="##">DR品牌文化</a>
+						<div class="liall">
 							<div class="lif1">
 								<img src="img/navImg/1477304677.jpg" alt="" />
 								<p>品牌文化</p>
@@ -210,10 +266,11 @@
 								<img src="img/navImg/1477304692.jpg" alt="" />
 								<p>明星推荐</p>
 							</div>
-						</div>-->
+						</div>
 					</li>
-					<li class="Li7 Liall"><a href="##">探索DR</a>
-						<!--<div  class="liall">
+					<li class="Li7 Liall">
+						<a href="##">探索DR</a>
+						<div class="liall">
 							<div class="lif1">
 								<img src="img/navImg/1488350702.jpg" alt="" />
 								<p>DR专题</p>
@@ -222,7 +279,7 @@
 								<img src="img/navImg/1488163618.jpg" alt="" />
 								<p>探索DR</p>
 							</div>
-						</div>-->
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -251,24 +308,24 @@
 		<div id="love-better">
 			<div class="better-main clearfix">
 				<div class="better-left">
-						<div class="better-all">
-							<a href="##"></a>
-							<img class="imgc3" src= />
-							<h3 class="better-h3a"></h3>
-							<p class="better-pa"></p>
-						</div>
-						<div class="better-all">
-							<a href="##"></a>
-							<img class="imgc3" src=""/>
-							<h3 class="better-h3b"></h3>
-							<p class="better-pb"></p>
-						</div>
-						<div class="better-all">
-							<a href="##"></a>
-							<img class="imgc3" src=""/>
-							<h3 class="better-h3c"></h3>
-							<p class="better-pc"></p>
-						</div>
+					<div class="better-all">
+						<a href="##"></a>
+						<img class="imgc3" src=/>
+						<h3 class="better-h3a"></h3>
+						<p class="better-pa"></p>
+					</div>
+					<div class="better-all">
+						<a href="##"></a>
+						<img class="imgc3" src="" />
+						<h3 class="better-h3b"></h3>
+						<p class="better-pb"></p>
+					</div>
+					<div class="better-all">
+						<a href="##"></a>
+						<img class="imgc3" src="" />
+						<h3 class="better-h3c"></h3>
+						<p class="better-pc"></p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -291,12 +348,12 @@
 			</div>
 		</div>
 		<div id="showRing">
-			<div class="store clearfix">
+			<div class="store clearfix louti">
 				<div class="store-logo">
 					<p class="store-p">
 						<a href="##" class="store-p-a">实体店</a>
 					</p>
-					<img class="show-logo" src="img/show/sealBg.png"/>
+					<img class="show-logo" src="img/show/sealBg.png" />
 				</div>
 				<div class="store-city">
 					<p class="store-city-p">
@@ -313,20 +370,20 @@
 						<div class="GPS-posi">
 							<p class="GPS-p1">
 								<i>附近的实体店GPS</i>
-								<input class="GPS-input" type="text" name="" id="" value="" placeholder="请输入城市名称如:深圳"/></p>
+								<input class="GPS-input" type="text" name="" value="" placeholder="请输入城市名称如:深圳" /></p>
 							<a href="##" class="GPS-a"></a>
 							<p class="GPS-p">进店预约(30秒完成预约)</p>
-							
+
 						</div>
-						</div>
+					</div>
 					<div class="story">
 						<h3>DR实体店求婚故事</h3>
 						<p class="story-p"><i class="story-i"></i></p>
 						<p class="story-glob">全球五十多家实体店</p>
 						<p>提供求婚服务</p>
-						<a href="##" class="story-a">更多  ></a>					
+						<a href="##" class="story-a">更多 ></a>
 					</div>
-					<div class="hongkong-story" >
+					<div class="hongkong-story">
 						<ul class="carouse-ul1">
 							<!--<li>
 								<img src="" alt="" />
@@ -342,16 +399,16 @@
 						<ul class="carouse-ul2">
 							<!--<li></li>
 							<li></li>-->
-						</ul>						
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="newgoods">
+			<div class="newgoods louti">
 				<div class="newgoods-logo">
 					<p class="newgoods-p">
 						<a href="##" class="newgoods-a">新品推荐</a>
 					</p>
-					<img class="newgoods-img" src="img/show/sealBg.png"/>
+					<img class="newgoods-img" src="img/show/sealBg.png" />
 				</div>
 				<div class="nGimg">
 					<div class="nGimg1 nGimg-all">
@@ -363,7 +420,7 @@
 						<!--<img src="img/show/1488261516.jpg"/>
 						<h3>aaa</h3>
 						<a href="##">更多 > </a>-->
-					
+
 					</div>
 					<div class="nGimg3 nGimg-all">
 						<!--<img src="img/show/1488261554.jpg"/>
@@ -372,12 +429,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="loveGift">
+			<div class="loveGift louti">
 				<div class="loveGift-logo">
 					<p class="loveGift-p">
 						<a href="##" class="loveGift-a">爱的礼物</a>
 					</p>
-					<img class="loveGift-img" src="img/show/sealBg.png"/>
+					<img class="loveGift-img" src="img/show/sealBg.png" />
 				</div>
 				<div class="gift">
 					<ul class="gift-ul">
@@ -393,52 +450,52 @@
 					</ul>
 				</div>
 				<div class="silk">
-					<img src="img/show/148774713458ad383e7168f.jpg"/>
+					<img src="img/show/148774713458ad383e7168f.jpg" />
 				</div>
 				<div class="gift-img">
-					<img src="img/show/1488248754.jpg"/>
-					<img src="img/show/1488248779.jpg"/>
-					<img src="img/show/1488248795.jpg"/>
-					<img src="img/show/1488248833.jpg"/>
+					<img src="img/show/1488248754.jpg" />
+					<img src="img/show/1488248779.jpg" />
+					<img src="img/show/1488248795.jpg" />
+					<img src="img/show/1488248833.jpg" />
 				</div>
 			</div>
-			
-			<div class="heartWith">
+
+			<div class="heartWith louti">
 				<div class="bor">
 					<a href="##">唯一真爱 求婚钻戒</a>
 				</div>
 				<div class="Img-H">
-					<img src="img/show/148773250858acff1c6b69f.jpg"/>
+					<img src="img/show/148773250858acff1c6b69f.jpg" />
 					<div class="heart-R">
 						<h3>把心交给你</h3>
 						<p>从此一心一意 一生一世</p>
 						<p class="sild"><i></i></p>
 						<p>My Heart系列 简奢款</p>
-						
+
 					</div>
 				</div>
 			</div>
-			<div class="marry">
+			<div class="marry louti">
 				<div class="bor">
 					<a href="##">天生一对 结婚对戒</a>
 				</div>
 				<div class="Img-H">
-					<img src="img/show/148774660958ad363167649.jpg"/>
+					<img src="img/show/148774660958ad363167649.jpg" />
 					<div class="heart-L">
 						<h3>男人兑现一生唯一真爱承诺</h3>
 						<p class="sild"><i></i></p>
 						<p>Darry Ring 结婚对戒</p>
-						
+
 					</div>
 				</div>
 			</div>
-			<div class="star">
+			<div class="star louti">
 				<div class="bor">
 					<a href="##">真爱明星</a>
 					<a href="##">更多 ></a>
 				</div>
 				<div class="Img-H">
-					<img src="img/show/148774750258ad39ae8fb27.jpg"/>
+					<img src="img/show/148774750258ad39ae8fb27.jpg" />
 					<div class="heart-Center">
 						<h3>戴向宇&陈紫函 手戴DR钻戒幸福完婚</h3>
 						<p class="sild"><i></i></p>
@@ -446,44 +503,67 @@
 					</div>
 				</div>
 			</div>
-		<div class="loveDo">
-				<img src="img/show/1488354950.jpg"/>
-				<img src="img/show/1488353928.jpg"/>
-			<div class="loveImg-R">
-				<h4>DR粉丝 . 唯一真爱家族</h4>
-				<a class="explor" href="##">探索 ></a>
+			<div class="loveDo">
+				<img src="img/show/1488354950.jpg" />
+				<img src="img/show/1488353928.jpg" />
+				<div class="loveImg-R">
+					<h4>DR粉丝 . 唯一真爱家族</h4>
+					<a class="explor" href="##">探索 ></a>
+				</div>
+
 			</div>
-			
-		</div>
 		</div>
 		<div id="footer">
 			<div class="foot-border"></div>
 			<div class="foot-GIA">
 				<ul class="foot-ul1">
-					<li><i></i><a href="##">权威认证</a></li>
-					<li><i></i><a href="##">一钻双证</a></li>
-					<li><i></i><a href="##">终生保养</a></li>
-					<li><i></i><a href="##">以小换大</a></li>
-					<li><i></i><a href="##">15天退换</a></li>
-					<li><i></i><a href="##">全国免运费</a></li>
-					<li><i></i><a href="##">全程保险</a></li>
-				</ul>     
+					<li><i></i>
+						<a href="##">权威认证</a>
+					</li>
+					<li><i></i>
+						<a href="##">一钻双证</a>
+					</li>
+					<li><i></i>
+						<a href="##">终生保养</a>
+					</li>
+					<li><i></i>
+						<a href="##">以小换大</a>
+					</li>
+					<li><i></i>
+						<a href="##">15天退换</a>
+					</li>
+					<li><i></i>
+						<a href="##">全国免运费</a>
+					</li>
+					<li><i></i>
+						<a href="##">全程保险</a>
+					</li>
+				</ul>
 			</div>
 			<div class="foot-our">
 				<div class="foot-cen">
 					<ul class="our-ul clearfix">
-						<li><i></i><a href="##">关注我们 </a><div class="foot-img"><img src="img/LogoImg/APP_ewm.jpg"/></div></li>
-						<li><i></i><a href="##">真爱查询 </a></li>
-						<li><i></i><a href="##">实体店免费预约 </a></li>
-						<li><i></i><a href="##">在线客服</a></li>
-						
-					</ul>   
-	 				<div class="foot-tel">
-	 					<a href="##">免费服务热线</a>
+						<li><i></i>
+							<a href="##">关注我们 </a>
+							<div class="foot-img"><img src="img/LogoImg/APP_ewm.jpg" /></div>
+						</li>
+						<li><i></i>
+							<a href="##">真爱查询 </a>
+						</li>
+						<li><i></i>
+							<a href="##">实体店免费预约 </a>
+						</li>
+						<li><i></i>
+							<a href="##">在线客服</a>
+						</li>
+
+					</ul>
+					<div class="foot-tel">
+						<a href="##">免费服务热线</a>
 						<a href="##">工作时间:9:00-22:30</a>
-	 					<h4>400 01 13520</h4>
-	 					
-	 				</div>
+						<h4>400 01 13520</h4>
+
+					</div>
 				</div>
 			</div>
 			<div class="foot-copy">
@@ -528,114 +608,115 @@
 					</ul>
 				</div>
 				<div class="dr_statement">
-				<p>Copyright © 2006-2015 www.darryring.com 戴瑞珠宝 All Rights Reserved. 粤ICP备11012085号-2</p>
-				<p>ICP经营许可证粤B2-20140279 | 中国互联网违法信息举报中心 | 中国公安网络110报警服务 | 本网站提供所售商品的正式发票 </p>
-			</div>
-					<div class="dr_friendshare">
+					<p>Copyright © 2006-2015 www.darryring.com 戴瑞珠宝 All Rights Reserved. 粤ICP备11012085号-2</p>
+					<p>ICP经营许可证粤B2-20140279 | 中国互联网违法信息举报中心 | 中国公安网络110报警服务 | 本网站提供所售商品的正式发票 </p>
+				</div>
+				<div class="dr_friendshare">
 					<span>友情链接：</span>
 					<a href="#" target="_blank">戴瑞珠宝官网</a>
-	            
-	                <a href="#" target="_blank">求婚词</a>
-	            
-	                <a href="#" target="_blank">钻石戒指</a>
-	            
-	                <a href="#" target="_blank">魅网女性网</a>
-	            
-	                <a href="#" target="_blank">拍鞋网</a>
-	            
-	                <a href="#" target="_blank">饰品品牌</a>
-	            
-	                <a href="#" target="_blank">化妆品库</a>
-	            
-	                <a href="#" target="_blank">南京房产网</a>
-	            
-	                <a href="#" target="_blank">娱乐新闻</a>
-	            
-	                <a href="#" target="_blank">建材商城</a>
-	            
-	                <a href="#" target="_blank">手表品牌排行</a>
-	            
-	                <a href="#" target="_blank">识货</a>
-	            
-	                <a href="#" target="_blank">梦芭莎时尚网</a>
-	            
-	                <a href="#" target="_blank">发型设计</a>
-	            
-	                <a href="#" target="_blank">白领</a>
-	            
-	                <a href="#" target="_blank">眼镜店</a>
-	            
-	                <a href="#" target="_blank">婚纱摄影</a>
-	            
-	                <a href="#" target="_blank">播视网视频</a>
-	            
-	                <a href="#" target="_blank">发型</a>
-	            
-	                <a href="#" target="_blank">中国女装网</a>
-	            
-	                <a href="http://m.kuaidi100.com" target="_blank">快递查询</a>
-	            
-	                <a href="http://huochepiao.tieyou.com/" target="_blank">火车票查询</a>
-	            
-	                <a href="http://www.cunan.com/" target="_blank">伊宅购村安商城</a>
-	            
-	                <a href="http://www.kela.cn/" target="_blank">珂兰钻石</a>
-	            
-	                <a href="http://www.juwai.com" target="_blank">海外房产</a>
-	            
-	                <a href="http://www.9998.tv/" target="_blank">白酒招商</a>
-	            
-	                <a href="http://www.airmb.com/" target="_blank">爱藏网</a>
-	            
-	                <a href="http://collection.sina.com.cn/ddys/" target="_blank">新浪当代艺术</a>
-	            
-	                <a href="http://www.aitaocui.cn" target="_blank">淘翠网</a>
-	            
-	                <a href="http://cq.focus.cn/" target="_blank">重庆房产</a>
-	            
-	                <a href="http://weather.zuzuche.com/" target="_blank">天气预报查询</a>
-	            
-	                <a href="http://haitao.smzdm.com/" target="_blank">海淘</a>
-	            
-	                <a href="http://www.258.com/" target="_blank">258</a>
-	            
-	                <a href="http://xuexiao.liuxue86.com/" target="_blank">大学院校库</a>
-	            
-	                <a href="http://www.zocai.com/" target="_blank">佐卡伊钻戒</a>
-	            
-	                <a href="http://www.nanhutravel.com/" target="_blank">南湖国旅</a>
-	            
-	                <a href="http://www.5588.tv/" target="_blank">化妆品招商</a>
-	            
-	                <a href="http://www.022003.com/" target="_blank">笔趣阁txt下载</a>
-	            
-	                <a href="http://nv.99.com.cn/" target="_blank">女性健康</a>
-	            
-	                <a href="http://www.bloves.com/" target="_blank">钻戒</a>
-	            
-	                <a href="http://www.cocodiy.com" target="_blank">礼物</a>
-	            
-	                <a href="http://news.wbiao.cn/" target="_blank">手表品牌大全</a>
-	            
-	                <a href="http://www.crd.cn/" target="_blank">钻戒</a>
-	            
-	                <a href="http://marry.daoxila.com" target="_blank">婚嫁网</a>
-	
-	                <a href="http://www.jihaoba.com" target="_blank">手机靓号网</a>
-	
-	                <a href="http://www.64365.com" target="_blank">律师</a>
-	
-	                <a href="http://www.qqqnm.com" target="_blank">海淘攻略</a>
-			</div>
-			<!--友情链接end-->
-			<!--中英文切换-->
-			<div class="dr_langues">
-				<a href="http://www.darryring.com">中文简体/</a>
-				<a href="http://www.darryring.com/en">English</a>
-			</div>
-			<!--中英文切换end-->
-		
+
+					<a href="#" target="_blank">求婚词</a>
+
+					<a href="#" target="_blank">钻石戒指</a>
+
+					<a href="#" target="_blank">魅网女性网</a>
+
+					<a href="#" target="_blank">拍鞋网</a>
+
+					<a href="#" target="_blank">饰品品牌</a>
+
+					<a href="#" target="_blank">化妆品库</a>
+
+					<a href="#" target="_blank">南京房产网</a>
+
+					<a href="#" target="_blank">娱乐新闻</a>
+
+					<a href="#" target="_blank">建材商城</a>
+
+					<a href="#" target="_blank">手表品牌排行</a>
+
+					<a href="#" target="_blank">识货</a>
+
+					<a href="#" target="_blank">梦芭莎时尚网</a>
+
+					<a href="#" target="_blank">发型设计</a>
+
+					<a href="#" target="_blank">白领</a>
+
+					<a href="#" target="_blank">眼镜店</a>
+
+					<a href="#" target="_blank">婚纱摄影</a>
+
+					<a href="#" target="_blank">播视网视频</a>
+
+					<a href="#" target="_blank">发型</a>
+
+					<a href="#" target="_blank">中国女装网</a>
+
+					<a href="http://m.kuaidi100.com" target="_blank">快递查询</a>
+
+					<a href="http://huochepiao.tieyou.com/" target="_blank">火车票查询</a>
+
+					<a href="http://www.cunan.com/" target="_blank">伊宅购村安商城</a>
+
+					<a href="http://www.kela.cn/" target="_blank">珂兰钻石</a>
+
+					<a href="http://www.juwai.com" target="_blank">海外房产</a>
+
+					<a href="http://www.9998.tv/" target="_blank">白酒招商</a>
+
+					<a href="http://www.airmb.com/" target="_blank">爱藏网</a>
+
+					<a href="http://collection.sina.com.cn/ddys/" target="_blank">新浪当代艺术</a>
+
+					<a href="http://www.aitaocui.cn" target="_blank">淘翠网</a>
+
+					<a href="http://cq.focus.cn/" target="_blank">重庆房产</a>
+
+					<a href="http://weather.zuzuche.com/" target="_blank">天气预报查询</a>
+
+					<a href="http://haitao.smzdm.com/" target="_blank">海淘</a>
+
+					<a href="http://www.258.com/" target="_blank">258</a>
+
+					<a href="http://xuexiao.liuxue86.com/" target="_blank">大学院校库</a>
+
+					<a href="http://www.zocai.com/" target="_blank">佐卡伊钻戒</a>
+
+					<a href="http://www.nanhutravel.com/" target="_blank">南湖国旅</a>
+
+					<a href="http://www.5588.tv/" target="_blank">化妆品招商</a>
+
+					<a href="http://www.022003.com/" target="_blank">笔趣阁txt下载</a>
+
+					<a href="http://nv.99.com.cn/" target="_blank">女性健康</a>
+
+					<a href="http://www.bloves.com/" target="_blank">钻戒</a>
+
+					<a href="http://www.cocodiy.com" target="_blank">礼物</a>
+
+					<a href="http://news.wbiao.cn/" target="_blank">手表品牌大全</a>
+
+					<a href="http://www.crd.cn/" target="_blank">钻戒</a>
+
+					<a href="http://marry.daoxila.com" target="_blank">婚嫁网</a>
+
+					<a href="http://www.jihaoba.com" target="_blank">手机靓号网</a>
+
+					<a href="http://www.64365.com" target="_blank">律师</a>
+
+					<a href="http://www.qqqnm.com" target="_blank">海淘攻略</a>
+				</div>
+				<!--友情链接end-->
+				<!--中英文切换-->
+				<div class="dr_langues">
+					<a href="http://www.darryring.com">中文简体/</a>
+					<a href="http://www.darryring.com/en">English</a>
+				</div>
+				<!--中英文切换end-->
+
 			</div>
 		</div>
 	</body>
+
 </html>
